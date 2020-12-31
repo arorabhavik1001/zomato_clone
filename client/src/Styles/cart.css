@@ -1,0 +1,53 @@
+.quantity {
+    color: blue;
+}
+
+.headingCart {
+    text-align: center;
+    color: darkblue;
+    font-size:40px;
+    text-decoration: underline;
+
+}
+
+.dish {
+    display: inline;
+    margin: 10px;
+}
+.quantity {
+    display: inline;
+    margin: 40px;
+}
+.from {
+    display: inline;
+    margin: 40px;
+}
+
+.mainCart {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+  margin: 10px;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.1s;
+}
+
+.button:hover {
+    transform: scale(1);
+    transform-origin: center;
+    box-shadow: 2px 2px 8px black;
+}
+
+.subtotal {
+    display: inline;
+    text-align: center;
+    color: darkblue;
+    font-size:30px;
+    margin-right: 50px;
+}

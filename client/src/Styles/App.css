@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: tomato;
+  padding: 10px;
+  margin: 0px;
+}
+
+.footer {
+  background-color: green;
+}
+
+.tab1 {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.img1 {
+  position: relative;
+  left: 300px;
+  top: 10px;
+  transition: 0.2s;
+}
+
+.img1:hover {
+  transform: scale(1.03);
+  transform-origin: center;
+}
+
+.orderButton {
+  color: white;
+  background-color: red;
+  border: none;
+  width: 210px;
+  font-size: 20px;
+  height: 45px;
+  border-radius: 7px;
+  position: absolute;
+  right: 30px;
+  top: 540px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.orderButton:hover {
+  transform: scale(1.03);
+  transform-origin: center;
+}
+
+.text {
+  color: darkblue;
+  position: relative;
+  left: 50px;
+}
+
+.galleryButton {
+  width: 180px;
+  height: 24px;
+  padding: 13px 13px 12px 16px;
+  opacity: 0.8;
+  border-radius: 3px;
+  background-color: white;
+  border: none;
+  color: darkblue;
+  font-size: 15px;
+  position: absolute;
+  top: 430px;
+  left: 965px;
+  text-decoration: none;
+}
+
+.contact {
+  color: red;
+}
+
+.address {
+  color: rgba(0, 0, 139, 0.837);
+  font-size: large;
+}
+
+.cart {
+  /* display: inline; */
+  /* margin-right: 20px; */
+  margin-left: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  /* cursor: pointer; */
+  /* transition: 0.1s; */
+}
+
+/* .cart:hover {
+  transform: scale(1.03);
+  transform-origin: center;
+} */
+
+.buttons {
+  margin: 10px;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.1s;
+}
+
+.buttons:hover {
+  transform: scale(1);
+  transform-origin: center;
+  box-shadow: 2px 2px 8px black;
+}
+
+
+/* .background{
+  background-color:rgb(39, 39, 39);
+} */
+
+body {
+  font-family:Arial, Helvetica, sans-serif
+}

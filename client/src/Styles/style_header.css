@@ -1,0 +1,90 @@
+.navbar {
+    background-color: red;
+    width: 1519px;
+    height: 70px;
+    padding-top:0;
+    position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+.logo {
+    color: red;
+    font-size: 45px;
+    background: white;
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: -650px;
+    top: 10px;
+}
+
+.login {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    /* position: absolute;
+    top: 25px;
+    right: 245px; */
+    float: right;
+}
+
+.login:hover {
+    /* box-shadow: 2px 2px 8px #888888; */
+    /* transform: scale(1.03); */
+    /* transform-origin: center; */
+    cursor: pointer;
+    color: yellow
+}
+
+.account {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    /* position: absolute;
+    right: 46px;
+    top: 18px; */
+    float: right;
+}
+
+.account:hover {
+    box-shadow: 2px 2px 8px #888888;
+    transform: scale(1.03);
+}
+
+.signUpButton:hover {
+    box-shadow: 2px 2px 8px #888888;
+    transform: scale(1.03);
+}
+.cancelButton:hover {
+    box-shadow: 2px 2px 8px #888888;
+    transform: scale(1.03);
+}
+
+.hiName {
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 160px;
+}
+
+.cartButton {
+    position: absolute;
+    top: 22px;
+    background: none;
+    border: 1px solid white;
+    border-radius:5px;
+    color: white;
+    font-size: 25px;
+    right: 320px;
+}
